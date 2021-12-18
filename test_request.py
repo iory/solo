@@ -19,5 +19,5 @@ def inference_solo(
     return data
 
 
-img = cv2.imread('/home/iory/src/github.com/WXinlong/SOLO/demo/demo.jpg')
+img = cv2.imread('./demo.jpg')
 res = inference_solo(img)
